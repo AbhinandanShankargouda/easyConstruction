@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.hovercolor:hover {
+    background: blue;
+}
+
+.hed {
+    background-color: blue;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.createButton {
+    margin-left: 115px;
+}
+
+.createNewProjectName {
+    border: 0ch;
+    background-color: #f8fafa00;
+    color: rgba(0, 0, 0, .55);
+
+}
+
+.navbarContent {
+    color: black;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin-top: 100px;
+
+
+}
+
+li.itemsname:hover {
+    border: 1px solid #ECECEC;
+    box-shadow: 5px 5px rgb(239, 235, 235);
+}
+
+
+.registration-form {
+    padding: 50px 0;
+}
+
+.registration-form form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon {
+    text-align: center;
+    background-color: #5891ff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item {
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.registration-form .create-account {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.registration-form .social-media {
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #9fadca;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .social-icons {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.registration-form .social-icons a {
+    font-size: 23px;
+    margin: 0 3px;
+    color: #5691ff;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.registration-form .social-icons a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .registration-form form {
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+.border_style {
+    background-color: white;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.serv ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.serv ul li {
+    list-style: none;
+    flex: 0 0 10%;
+    margin-left: 30px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 60px;
+    left: -15vw;
+    height: 100%;
+    width: 15vw;
+    transition: left 0.3s ease-in-out;
+
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 20%;
+    right: -60px;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    background-color: lightgray;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.content.open {
+    left: 15vw;
+}
+
+.foos {
+    width: 200px;
+    height: 200px;
+}
+
+.border_styles {
+    margin: 10px;
+}
+
+.breadcrumb-not-active {
+    color: #cccccc;
+}
+
+.breadcrumb-active {
+    color: #000000;
+}
+
+.breadcrumb-arrow {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+#bgc {
+
+    color: #7F8487;
+    font-family: 'Ubuntu';
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
+
+.bread {
+    padding-left: 0px;
+}
+
+li.breads+li.breads::before {
+    content: ">" !important;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #E2DEA9;
+}
+
+li.withoutarrow+li.withoutarrow::before {
+    content: "" !important;
+
+}
+
+
+.breaditem ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.breaditem ul li {
+    list-style: none;
+    flex: 0 0 10%;
+
+}
+
+.tops {
+    margin-top: 0px;
+    text-decoration: none;
+
+}
+
+.breadcontainer {
+    position: relative;
+    width: 500px;
+}
+
+.imagesofWorkers {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    border-radius: 100%;
+    border-style: double;
+    border-color: cadetblue;
+}
+
+.workers {
+    display: flex;
+    flex-direction: row;
+}
+
+.workers:hover {
+    border: 1px solid #ECECEC;
+    box-shadow: 5px 5px rgb(239, 235, 235);
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#profileImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    background: #E5E5CB;
+    font-size: 15px;
+    color: #3C2A21;
+    text-align: center;
+    line-height: 4.5;
+    margin: 20px 0;
+    border-style: double;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Ubuntu";
+    display: block;
+    transition: 0.3s;
+}
+
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    margin-left: 0px;
+    background-color: #658864;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #658864;
+    padding: 10px 5px;
+    border: none;
+    position: relative;
+    right: 80px;
+    bottom: 10px
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 20px;
+        font-family: 'Ubuntu',
+    }
+}
+
+.ps-submenu-expand-icon {
+    padding-left: 50px;
+}
+
+.ps-submenu-content {
+    list-style: none;
+    overflow: hidden;
+}
